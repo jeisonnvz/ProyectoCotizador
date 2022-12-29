@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>SendIt</title>
+    <link rel="shortcut icon" href="imagenes/logo_200x200.ico">
+    <link href="https://fonts.googleapis.com/css?family=Thasadith" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="resuelto.css">
+</head>
+
+<body>
+
+    <header></header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="misdatos.html">Mis Datos</a></li>
+            <!-- <li><a href="/ProyectoIntegrador js/empresa.html">La empresa</a></li> -->
+            <li><a href="cotizador.html">Cripto Cotizador</a></li>
+            <!-- <li><a href="/ProyectoIntegrador js/contacto.html">Contacto</a></li> -->
+        </ul>
+    </nav>
+    <main>
+        <article>
+            <section id="saludoInicial"></section>
+            <form id="formC">
+                <div class="form">
+                    <!-- Full Name -->
+                    <label for="Peso" class="control-label">Peso</label>
+                    <input type="text" id="pesoForm">
+                </div>
+
+                <br>
+                <div class="form">
+                    <!-- Full Name -->
+                    <label for="Altura" class="control-label">Altura</label>
+                    <input type="text" id="altoForm">
+                </div>
+                <br>
+                <div class="form">
+                    <!-- Full Name -->
+                    <label for="full_name_id" class="control-label">Ancho</label>
+                    <input type="text" id="anchoForm">
+                </div>
+                <br>
+                <div class="form">
+                    <!-- Full Name -->
+                    <label for="full_name_id" class="control-label">Largo</label>
+                    <input type="text" id="largoForm">
+                </div>
+                <br>
+                <select class="form-select" aria-label="Default select example" id="selecionzona">
+                    <option selected>Selecciona una zona</option>
+                    <option value="caba">Caba</option>
+                    <option value="gba">GBA</option>
+                    <option value="rosario">Rosario</option>
+                </select>
+                <div class="form">
+                    <!-- Submit Button -->
+                    <button type="submit" class="btn btn-primary" id="cotizarbtn">Cotizar</button>
+                </div>
+            </form>
+            <div id="inputPrice"></div>
+        </article>
+        <section>
+            <div id="infoVol">
+
+                <article id="InfoPid">
+
+
+                    <div id="infoPeso">
+                        <img id="img1" src="imagenes/peso-volumetrico-ar.png">
+                        <h3><strong>¿Qué es el peso volumétrico y cómo se calcula?</strong></h3>
+                        <p> el cálculo que utilizan las transportadoras para entender cuánto espacio va a
+                            ocupar un paquete. Para obtenerlo, tenés que multiplicar las medidas del paquete
+                            (alto x ancho x largo) y después dividir ese número por 4.000.</p>
+
+                    </div>
+                    <button id="changeImg">Click Me </button>
+                    <button id="miInfo">Mostrar mi Info</button>
+                    <div id="inputInfo"></div>
+                </article>
+            </div>
+
+        </section>
+        <hr>
+
+    </main>
+    <footer>
+        <div id="pie">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="misdatos.html">Mis Datos</a></li>
+                <li><a href="empresa.html">La empresa</a></li>
+                <li><a href="cotizador.html">Cotizador</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+
+            <p>
+                &copy; 2021 - Todos Los derechos Reservados Beentz
+            </p>
+            <div id="redes">
+                <i>
+                    <a href="#">
+                        <img src="imagenes/redes/instagram32.png">
+                    </a>
+                </i>
+                <i>
+                    <a href="#">
+                        <img src="imagenes/redes/telegram.png">
+                    </a>
+                </i>
+                <i>
+                    <a href="#">
+                        <img src="imagenes/redes/twitter.png">
+                    </a>
+                </i>
+            </div>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <script src="Js/scriptIn.js"></script>
+    <script src="js/formUser.js"></script>
+
+</body>
+
+</html>
